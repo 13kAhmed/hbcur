@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_main"></ImageView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_common"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/lbl_transaction"
+                android:textAppearance="@style/TextAppearance.Medium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"></TextView>
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_12sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:padding="@dimen/_11sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+
+                    >
+
+                    <TextView
+                        android:layout_width="@dimen/_33sdp"
+                        android:layout_height="@dimen/_33sdp"
+                        android:background="@drawable/bg_white_circle"
+                        android:gravity="center"
+                        android:text="$"
+                        android:textAppearance="@style/TextAppearance.Bold"
+                        android:textColor="@color/yellow"
+                        android:textSize="@dimen/_18sdp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="@string/lbl_total_balance"
+                        android:textAppearance="@style/TextAppearance.Bold"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_16sdp"></TextView>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvBalanceTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="0.0"
+                    android:textAppearance="@style/TextAppearance.Bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp"></TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_common"
+            app:cardCornerRadius="@dimen/_12sdp">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_8sdp">
+
+                    <TextView
+                        android:id="@+id/tvNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/lbl_empty_record"
+                        android:textSize="@dimen/_13sdp"
+                        android:visibility="gone"></TextView>
+
+                    <RelativeLayout
+                        android:id="@+id/rlCurrentMining"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                         android:background="@color/white"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/_5sdp"
+                        android:visibility="gone">
+
+
+                        <RelativeLayout
+                            android:layout_marginBottom="@dimen/_7sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <LinearLayout
+
+                            android:id="@+id/llRight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:gravity="right"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvMoney"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+0.0"
+                                android:textAppearance="@style/TextAppearance.Medium"
+                                android:textColor="@color/green"
+                                android:textSize="@dimen/_14sdp"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lbl_hbcu"
+                                android:textAppearance="@style/TextAppearance.Medium"
+                                android:textColor="@color/yellow"
+                                android:textSize="@dimen/_11sdp"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/llRight"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lbl_daily_mining"
+                                android:textAppearance="@style/TextAppearance.Medium"
+                                android:textColor="@color/grayText"
+                                android:textSize="@dimen/_13sdp"></TextView>
+
+                            <TextView
+                                android:id="@+id/tvTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lbl_currently_mining"
+                                android:textColor="@color/yellow"
+                                android:textSize="@dimen/_11sdp"></TextView>
+                        </LinearLayout>
+                        </RelativeLayout>
+                        <View
+                             android:layout_alignParentBottom="true"
+                            android:background="@color/gray"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"></View>
+                    </RelativeLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvData"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <include layout="@layout/layout_progress_bar"></include>
+</RelativeLayout>

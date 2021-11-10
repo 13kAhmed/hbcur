@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "989483872592",
+    "project_id": "hbcu-605cb",
+    "storage_bucket": "hbcu-605cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989483872592:android:1a160f5e5e4e7634183c55",
+        "android_client_info": {
+          "package_name": "com.app.hbcu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989483872592-27gqisa1c6tcna4408mvsdi7rvo3pac9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.hbcu",
+            "certificate_hash": "2022838623e5b6ae6ef9b619105228b73b2a1877"
+          }
+        },
+        {
+          "client_id": "989483872592-s8be4nng8p4cdnnq0gaj70j0buv4bn0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.hbcu",
+            "certificate_hash": "6f9eee6cba0156e1e2365888969fe2b7b4bc57c9"
+          }
+        },
+        {
+          "client_id": "989483872592-oga1oik278djldf9efsob3fe4a7g3cmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzjy5UFmY82lTHd5JTW_Zbovvaz5Mlvac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989483872592-oga1oik278djldf9efsob3fe4a7g3cmb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "989483872592-0dkc2dqtb8ho3tlb8j6alusjdps2t9j1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.hbcu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

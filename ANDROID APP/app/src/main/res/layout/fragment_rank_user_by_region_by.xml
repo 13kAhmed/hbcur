@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/margin_common"
+    android:paddingRight="@dimen/margin_common"
+    android:background="@color/white"
+    tools:context=".activity.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/app_color_primary"
+            android:visibility="gone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvNo"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginTop="@dimen/margin_common"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_empty_record"></TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+</RelativeLayout>
