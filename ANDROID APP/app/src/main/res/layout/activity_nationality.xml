@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_main"></ImageView>
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_margin="@dimen/margin_common"
+        android:background="@drawable/bg_yellow_circle"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_back"
+        app:tint="@color/white"></ImageView>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ivBack">
+
+        <LinearLayout
+            android:id="@+id/llBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp">
+
+            <LinearLayout
+                android:id="@+id/llHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_lets_going_you"
+                    android:textAppearance="@style/TextAppearance.Bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp"></TextView>
+
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_15sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_common"
+                    android:paddingBottom="@dimen/margin_common">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/margin_common"
+                        android:paddingRight="@dimen/margin_common">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lbl_first_name"
+                            android:textAppearance="@style/TextAppearance.Medium"
+                            android:textColor="@color/app_color_primary"
+                            android:textSize="@dimen/_12sdp"></TextView>
+
+                        <EditText
+                            android:id="@+id/etFirstName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@null"
+                            android:hint="@string/hint_enter_first_name"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:lines="1"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:textColor="@color/app_color_primary"
+                            android:textSize="@dimen/_12sdp"></EditText>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:background="@color/gray"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/margin_common"
+                        android:paddingRight="@dimen/margin_common">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="@string/lbl_last_name"
+                            android:textAppearance="@style/TextAppearance.Medium"
+                            android:textColor="@color/app_color_primary"
+                            android:textSize="@dimen/_12sdp"></TextView>
+
+                        <EditText
+                            android:id="@+id/etLastName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@null"
+                            android:hint="@string/hint_enter_last_name"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:lines="1"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:textColor="@color/app_color_primary"
+                            android:textSize="@dimen/_12sdp"></EditText>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <CheckBox
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:id="@+id/cbAA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:button="@drawable/selector_checkbox"
+                android:buttonTint="@color/white"
+                android:checked="true"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="@string/lbl_african_american"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"></CheckBox>
+
+            <LinearLayout
+                android:id="@+id/rlNationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_yellow_rounded_btn"
+                android:backgroundTint="@color/white"
+                android:gravity="center_vertical"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_marginLeft="@dimen/margin_common"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:src="@drawable/ic_flag"></ImageView>
+
+                <Spinner
+                    android:id="@+id/spnNationality"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSupportSocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/lbl_support_social_justice"
+                    android:textAppearance="@style/TextAppearance.Medium"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_common"
+                    android:gravity="center"
+                    android:visibility="visible">
+
+                    <Button
+                        android:id="@+id/btnYes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_38sdp"
+                        android:backgroundTint="@color/yellow"
+                        android:text="@string/lbl_yes"
+                        android:textAllCaps="false"
+                        android:textAppearance="@style/TextAppearance.Medium"
+                        android:textColor="@color/app_color_primary"
+                        android:textSize="@dimen/_12sdp"></Button>
+
+                    <Button
+                        android:id="@+id/btnNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_38sdp"
+                        android:layout_marginLeft="@dimen/margin_common"
+                        android:backgroundTint="@color/white"
+                        android:text="@string/lbl_no"
+                        android:textAllCaps="false"
+                        android:textAppearance="@style/TextAppearance.Medium"
+                        android:textColor="@color/app_color_primary"
+                        android:textSize="@dimen/_12sdp"></Button>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/bg_yellow_rounded_btn"
+                android:text="@string/lbl_proceed"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.Medium"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp"
+                android:visibility="gone"></Button>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <View
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_common"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/bg_white_rounded"></View>
+</RelativeLayout>

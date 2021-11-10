@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">HBCU</string>
+
+    <string name="lbl_hbcu">HBCU</string>
+    <string name="lbl_hbcu_R">HBCU(R)</string>
+
+    <string name="facebook_app_id" translatable="false">2891796397759677</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2891796397759677</string>
+
+    <string name="msg_no_internet">Internet is not connected</string>
+    <string name="msg_somthing_wrong">Something went wrong. Try again later</string>
+    <string name="msg_somthing_wrong_resend">Something went wrong. Please try to resend OTP</string>
+
+    <string name="lbl_empty_record">No Record Found</string>
+    <string name="failed_sent_otp">Failed to send OTP</string>
+    <string name="invalid_credential">Invalid Credentials</string>
+    <string name="varified_success">Verified Successfully</string>
+    <string name="msg_register_success">Register Successfully</string>
+    <string name="enter_otp">Enter OTP </string>
+
+    <string name="lbl_loging_terms_condition">By logging in, you agree to the Terms of Service and Privacy Policy.</string>
+    <string name="lbl_continue_phone">Continue with Phone Number</string>
+    <string name="lbl_continue_mobile">Continue with Mobile</string>
+    <string name="lbl_continue_facebook">Continue with Facebook</string>
+    <string name="lbl_continue_google">Continue with Google</string>
+    <string name="lbl_continue_apple">Continue with Apple</string>
+
+    <string name="logout_alert">Do you want to Logout?</string>
+    <string name="logout_success">Logout Successfully</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="lbl_invite_from_contact">Invite from contacts</string>
+    <string name="lbl_search_contact">Search contacts</string>
+
+    <string name="lbl_lets_start">Let\'s Get Started</string>
+    <string name="lbl_invite_friends_to_join_code">Invite your friends to join HBCU with your invitation code.</string>
+    <string name="lbl_invitation_code">Invitation Code</string>
+    <string name="lbl_invite_contact">Invite your contacts</string>
+    <string name="lbl_share">Share</string>
+    <string name="lbl_terms_service_privacy_policy">Terms of Service and Privacy Policy</string>
+    <string name="lbl_copid_success">Copied Successfully</string>
+    <string name="lbl_here_my_invitation_link">Here is my invitation link for HBCU. Use the invitation code:</string>
+
+
+    <string name="lbl_what_yr_number">What\'s your number</string>
+    <string name="lbl_rewarding_game_info">To join the HBCU ecosystem, we\'ll have to verify your phone number.</string>
+    <string name="lbl_country_code">Country Code</string>
+    <string name="lbl_phone_number">Phone Number</string>
+    <string name="lbl_send_sms">Send SMS</string>
+    <string name="lbl_required">Required</string>
+    <string name="lbl_invalid">Invalid</string>
+
+    <string name="lbl_verification_code">Verification Code</string>
+    <string name="lbl_enter_code">Enter the 6-digit code</string>
+    <string name="lbl_digit_code_info">Please verify your 6-digit OTP sent to your phone.</string>
+    <string name="lbl_confirm">Confirm</string>
+    <string name="lbl_didnt_get_code">Didn\'t get the code?</string>
+    <string name="lbl_resend">Resend</string>
+
+    <string name="lbl_lets_going_you">Let\'s Get You Going!</string>
+    <string name="lbl_first_name">First Name</string>
+    <string name="lbl_last_name">Last Name</string>
+    <string name="lbl_african_american">I\'m African American</string>
+    <string name="lbl_choose_nationality">Choose Nationality</string>
+    <string name="lbl_support_social_justice">Do you support social and economic liberty &amp; justice for all?</string>
+    <string name="lbl_hbcu_alumni">Are you a HBCU alumni?</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="lbl_no">No</string>
+    <string name="lbl_proceed">Proceed</string>
+    <string name="msg_choose_nationality">Please Choose Nationality</string>
+    <string name="hint_enter_first_name">Enter First Name</string>
+    <string name="hint_enter_last_name">Enter Last Name</string>
+    <string name="hint_enter_invite_code">Enter Invitation Code</string>
+    <string name="lbl_edit_profile">Edit Profile</string>
+    <string name="lbl_update">Update</string>
+    <string name="lbl_send_ping_success">Send notification successfully.</string>
+    <string name="lbl_ping_error">Send notification failed.</string>
+
+
+    <string name="lbl_follow_us_social">Follow us on Social Media</string>
+    <string name="lbl_account_info">Account Info</string>
+    <string name="lbl_username">Username</string>
+    <string name="lbl_apple_verified">Apple Verified</string>
+    <string name="lbl_google_verified">Google Verified</string>
+    <string name="lbl_facebook_verified">Facebook Verified</string>
+    <string name="lbl_phone_verified">Phone Verified</string>
+    <string name="lbl_about">About</string>
+    <string name="lbl_white_paper">White Paper</string>
+    <string name="lbl_faq">FAQ</string>
+    <string name="lbl_contact">Contact</string>
+    <string name="lbl_logout">Logout</string>
+
+    <string name="lbl_transaction">Transactions</string>
+    <string name="lbl_total_balance">Total Balance</string>
+    <string name="lbl_daily_mining">Daily Mining</string>
+
+    <string name="lbl_finished_session">You have finished one session!</string>
+    <string name="lbl_notification">Notification</string>
+
+    <string name="lbl_earning_team">Earning Team</string>
+    <string name="lbl_security_circle">Security Circle</string>
+    <string name="lbl_you_invited">You have invited</string>
+    <string name="lbl_your_team_has">Your team has</string>
+    <string name="lbl_currently_mining">Currently mining</string>
+    <string name="lbl_mining_session">Current mining session ends in</string>
+    <string name="lbl_ping">Ping</string>
+    <string name="lbl_week">Week</string>
+    <string name="lbl_contribution_to_network">Your Contribution to the network security</string>
+    <string name="lbl_security_feature_next">Security circle feature will be launched in the next phase</string>
+
+    <string name="lbl_regional">Regional</string>
+    <string name="lbl_global">Global</string>
+    <string name="lbl_ranking">Ranking</string>
+    <string name="lbl_user_by_region">User by Region</string>
+
+    <string name="lbl_start_inviting">Start Inviting!</string>
+    <string name="lbl_invite_friend">Invite your friend!</string>
+    <string name="lbl_team">Team</string>
+    <string name="lbl_news">News</string>
+    <string name="lbl_balance">Balance ? </string>
+    <string name="lbl_total_rate">Total Rate</string>
+    <string name="lbl_visioner">Visioner</string>
+    <string name="lbl_visicommunity_member">Community member</string>
+    <string name="lbl_member">Member</string>
+    <string name="lbl_ambassador">Ambassador</string>
+    <string name="lbl_guide">Guide</string>
+    <string name="lbl_verifier">Verifier</string>
+    <string name="lbl_learn_more_role"><u>Learn More About Each Role</u></string>
+    <string name="lbl_active">Active</string>
+    <string name="lbl_inactive">Inactive</string>
+    <string name="lbl_view_team">View Team</string>
+    <string name="lbl_invite_user">Invite New User</string>
+    <string name="lbl_know_more">Know more</string>
+
+    <string name="lbl_refered_you_dash">- Referred you</string>
+
+</resources>

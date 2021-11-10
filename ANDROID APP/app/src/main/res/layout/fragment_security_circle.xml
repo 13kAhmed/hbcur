@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activity.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/lbl_contribution_to_network"
+            android:textColor="@color/grayText"
+            android:textSize="@dimen/_12sdp"></TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_yellow_rounded_btn"
+            android:backgroundTint="@color/gray">
+
+            <TextView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/bg_white_circle"
+                android:backgroundTint="@color/yellow"
+                android:gravity="center"
+                android:text="@string/lbl_week"
+                android:textAppearance="@style/TextAppearance.Bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"></TextView>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="00.00 HBCU"
+            android:textAppearance="@style/TextAppearance.Medium"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/_12sdp"></TextView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
