@@ -1,0 +1,55 @@
+/* 
+  English.strings
+
+  Created by iOSDev on 15/04/21.
+  
+*/
+
+/*================= COMMON BUTTONs =================*/
+"ok"                            = "OK";
+"done"                          = "Done";
+"cancel"                        = "Cancel";
+"signout"                       = "Signout";
+"settings"                      = "Settings";
+"yes"                           = "Yes";
+"no"                            = "No";
+"continue"                      = "Continue";
+"apply"                         = "Apply";
+
+
+"_HBCU"                     = "HBCU";
+
+"agree_tnc"                 = "By logging in, you agree to the Terms of Service and Privacy Policy.";
+"continue_fb"               = "Continue with Facebook";
+"continue_google"           = "Continue with Google";
+"continue_apple"            = "Continue with Apple";
+"continue_mobile"           = "Continue with Mobile";
+
+
+"myearning"                      = "My earnings";
+"referalearning"                      = "Referal earnings";
+
+"start_inviting"            = "Start inviting!";
+"Invite_friend"             = "Invite your friend!";
+"team"                      = "Team";
+"news"                      = "News";
+
+"tansactions"               = "Transactions";
+"earning_team"              = "Earning Team";
+"security_crircle"          = "Security circle";
+
+"u_have_invited"            = "You have invited";
+"u_team_has"                = "Your team has";
+"currently_mining"          = "Currently mining";
+
+"ranking"                   = "Ranking";
+"user_region"               = "User By Region";
+
+"notification"              = "Notification";
+
+"visioner"                  = "Community member";
+"ambassador"                = "Guide";
+"verifier"                  = "Verifier";
+
+"log_out"                       = "Log Out";
+"logout_alert"                  = "Are you sure you want to log out?";

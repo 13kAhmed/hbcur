@@ -1,0 +1,12 @@
+Pods
+*.DS_Store
+.DS_Store
+Podfile.lock
+
+BeeApp.xcodeproj/project.xcworkspace
+BeeApp.xcodeproj/xcuserdata
+BeeApp.xcodeproj/project.xcworkspace/xcuserdata
+BeeApp.xcodeproj/project.xcworkspace/BeeApp.xcworkspace
+BeeApp.xcworkspace/contents.xcworkspacedata
+BeeApp.xcworkspace/xcuserdata
+BeeApp.xcworkspace
